@@ -1,0 +1,25 @@
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px !important;
+    border: none !important;
+}
+
+.card_name {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card_price {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card_desc {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card_button {
+    text-decoration: none;
+}

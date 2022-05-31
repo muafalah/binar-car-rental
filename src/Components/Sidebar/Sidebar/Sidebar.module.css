@@ -1,0 +1,27 @@
+.box {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.sidebar {
+    background-color: #0D28A6;
+    width: 6%;
+}
+
+.children {
+    background-color: #F4F5F7;
+    width: 94%;
+}
+
+.sidebar_menu {
+    text-decoration: none;
+}
+
+.sidebar_menu:hover {
+    background-color: #5668C1;
+}
+
+.sidebar_text {
+    font-size: 12px;
+    color: #FFFFFF;
+}

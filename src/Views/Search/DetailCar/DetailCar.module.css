@@ -1,0 +1,48 @@
+.blank {
+    height: 20vh;
+    background-color: #F1F3FF;
+    margin-bottom: -7vh;
+    position: relative;
+    z-index: -1;
+}
+
+@media screen and (min-width: 992px) {
+    .search_box {
+        margin-top: -15vh;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.detail_box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+/* Accordion */
+.header_accordion {
+    padding: 0 !important;
+}
+
+.body_accordion {
+    padding: 0 !important;
+}
+
+.item_accordion {
+    border: 0 !important;
+}
+
+.header_accordion button  {
+    padding: 0 !important;
+}
+
+.header_accordion button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+.header_accordion button:not(.collapsed)::after {
+    background-image: url("../../../Assets/image/Search/icon-arrow-up.svg") !important;
+}

@@ -1,0 +1,11 @@
+.hero {
+    background-color: #F1F3FF;
+}
+
+@media screen and (min-width: 992px) {
+    .search_box {
+        margin-top: -12vh;
+        position: relative;
+        z-index: 1;
+    }
+}

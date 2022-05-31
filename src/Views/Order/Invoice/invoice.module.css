@@ -1,0 +1,14 @@
+.blank {
+    height: 15vh;
+    background-color: #F1F3FF;
+    margin-bottom: -10vh;
+    position: relative;
+    z-index: -1;
+}
+
+.box_pdf {
+    width: 40rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}

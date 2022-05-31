@@ -1,0 +1,15 @@
+.blank {
+    height: 20vh;
+    background-color: #F1F3FF;
+    margin-bottom: -7vh;
+    position: relative;
+    z-index: -1;
+}
+
+@media screen and (min-width: 992px) {
+    .search_box {
+        margin-top: -15vh;
+        position: relative;
+        z-index: 1;
+    }
+}

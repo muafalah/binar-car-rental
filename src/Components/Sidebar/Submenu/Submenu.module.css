@@ -1,0 +1,27 @@
+.box {
+    height: 100%;
+}
+
+.bg_submenu {
+    background-color: #FFFFFF;
+}
+
+.submenu {
+    width: 11rem;
+}
+
+.logo {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.menu {
+    background-color: #FFFFFF;
+    color: black;
+    text-decoration: none;
+}
+
+.menu:hover {
+    background-color: #CFD4ED;
+    color: black;
+}

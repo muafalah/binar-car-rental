@@ -1,0 +1,12 @@
+.title {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    padding:5px 5px 5px 10px;  
+    border-left:#0D28A6 solid 4px;
+}
+
+.link_breadcrumb {
+    color: #000000;
+    text-decoration: none;
+}

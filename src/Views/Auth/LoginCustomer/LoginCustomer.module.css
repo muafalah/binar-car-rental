@@ -1,0 +1,18 @@
+@media screen and (min-width: 576px) {
+    .image {
+        height: 100vh;
+        background-image: url(../../../Assets/image/Auth/img-customer.png);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.form {
+    height: 100vh;
+}
+
+.link {
+    color: #0D28A6;
+    text-decoration: none;
+}
