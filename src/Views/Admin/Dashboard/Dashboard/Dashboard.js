@@ -32,11 +32,11 @@ const Dashboard = () => {
                 </Col>
                 <Col md={12} className={'d-grid gap-3'}>
                     <div className={style.title}>List Order</div>
-                    <div>{dataOrder ? <TableListOrder value={dataOrder} /> : null}</div>
+                    {/* <div>{dataOrder ? <TableListOrder value={dataOrder} /> : null}</div> */}
                 </Col>
                 <Col md={12} className={'d-grid gap-3'}>
                     <div className={style.title}>List Car</div>
-                    <div>{dataCar ? <TableListCar value={dataCar} /> : null}</div>
+                    {/* <div>{dataCar ? <TableListCar value={dataCar} /> : null}</div> */}
                 </Col>
             </Row>
         </Layout.Admin>
