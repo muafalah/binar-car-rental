@@ -57,8 +57,8 @@ const CardAdmin = ({ data }) => {
                 <Card.Body>
                     <Card.Title className={'m-0 p-0 mb-2 '}><span className={style.card_name}>{data.name}</span></Card.Title>
                     <Card.Text className={'m-0 p-0 mb-2 '}><span className={style.card_price}>Rp {changePrice(data.price)} / hari</span></Card.Text>
-                    <Card.Text className={'m-0 p-0 mb-2 '}><span className={'d-flex align-item-center ' + style.card_desc}><img src={IconKey} width="20px" height="20px" className={'me-2'} />{changeDate(data.start_rent_at, "Start")} - {changeDate(data.finish_rent_at, "Finish")}</span></Card.Text>
-                    <Card.Text className={'m-0 p-0 mb-2 '}><span className={'d-flex align-item-center ' + style.card_desc}><img src={IconClock} width="20px" height="20px" className={'me-2'} />Updated at {changeUpdate(data.updatedAt)} WIB</span></Card.Text>
+                    <Card.Text className={'m-0 p-0 mb-2 '}><span className={'d-flex align-item-center ' + style.card_desc}><img src={IconKey} width="20px" height="20px" className={'me-2'} alt="icon-key" />{changeDate(data.start_rent_at, "Start")} - {changeDate(data.finish_rent_at, "Finish")}</span></Card.Text>
+                    <Card.Text className={'m-0 p-0 mb-2 '}><span className={'d-flex align-item-center ' + style.card_desc}><img src={IconClock} width="20px" height="20px" className={'me-2'} alt="icon-clock" />Updated at {changeUpdate(data.updatedAt)} WIB</span></Card.Text>
                     <Row className={'pt-2 gap'}>
                         <Col md={6} className={'d-grid gap '}>
                             <Button variant="outline-danger" onClick={() => setModalShow(true)}><FontAwesomeIcon icon={faTrashCan} /> Delete</Button>
